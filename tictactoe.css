@@ -1,0 +1,51 @@
+body {
+    background-color: silver;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: white;
+    background-color: #000;
+    font-weight: bold;
+}
+
+
+.gameBoard {
+    display: grid;
+    grid-template-columns: repeat(3, 130px);
+    margin: 20px auto;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.tile {
+    width: 130px;
+    height: 130px;
+    font-family: fantasy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #000;
+    font-size: 45px;
+    cursor: pointer;
+    background-color: lightslategray;
+}
+
+#turn-message {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#winMessage {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+
